@@ -37,3 +37,9 @@ cacheSolve <- function(x, ...) {
   x$setInverse(i)
   i
 }
+
+#TEST inputs
+#Values used are from https://www.mathsisfun.com/algebra/matrix-inverse.html in the "2x2 Matrix" section
+MA <- matrix(c(4, 2, 7, 6), 2, 2)
+MA1 <- makeCacheMatrix(MA)
+cacheSolve(MA1)
