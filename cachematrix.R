@@ -1,3 +1,6 @@
+#Code is just about the same as the assignment example
+#The only differences are variable/function names, and the "solve" function was used instead of "mean" 
+
 # makeCacheMatrix object will has four functions contained in a list.
 # 1. "set" the matrix
 # 2. "get" the above matrix
